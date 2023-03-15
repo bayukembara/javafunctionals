@@ -1,10 +1,12 @@
 package streams;
 
 import java.util.List;
+import java.util.function.Function;
+import java.util.function.IntConsumer;
+import java.util.function.ToIntFunction;
 import java.util.stream.Collectors;
 
-import static streams._Stream.Gender.MALE;
-import static streams._Stream.Gender.FEMALE;
+import static streams._Stream.Gender.*;
 
 public class _Stream {
 
@@ -14,13 +16,19 @@ public class _Stream {
                 new Person("Lisa", FEMALE),
                 new Person("Jiso", FEMALE),
                 new Person("Jenni", FEMALE),
-                new Person("Kembara", MALE));
+                new Person("Kembara", MALE),
+                new Person("Talita", PREFER_NOT_TO_SAY));
 
-            people.stream().map(person -> person.name).forEach(System.out::println);
+//*          you could use this one or  people.stream().map(person -> person.gender).forEach(System.out::println);
+
+        Function<Person, String> sPerson = person -> person.name;
+        ToIntFunction<String> sLength = String::length;
+        IntConsumer sPrint = System.out::println;
+        people.stream().map(sPerson).mapToInt(sLength).forEach(sPrint);
     }
 
     enum Gender {
-        MALE, FEMALE
+        MALE, FEMALE,PREFER_NOT_TO_SAY
     }
 
     static class Person {
