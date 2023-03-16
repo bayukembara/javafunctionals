@@ -25,6 +25,8 @@ public class _Stream {
         ToIntFunction<String> sLength = String::length;
         IntConsumer sPrint = System.out::println;
         people.stream().map(sPerson).mapToInt(sLength).forEach(sPrint);
+
+//        Main Here
     }
 
     enum Gender {
