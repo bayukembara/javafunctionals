@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77339d65-24f3-41c9-bb8e-ce944e502ba5" name="Changes" comment="Belajar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/_Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/_Stream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +165,7 @@
       <workItem from="1678709345332" duration="10045000" />
       <workItem from="1678798432586" duration="259000" />
       <workItem from="1678798703289" duration="2255000" />
-      <workItem from="1678922056611" duration="692000" />
+      <workItem from="1678922056611" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="Belajar">
       <created>1678667461747</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678840219334</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Belajar">
+      <created>1678928743853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678928743853</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
