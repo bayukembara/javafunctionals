@@ -1,6 +1,5 @@
 package functionalinterface;
 
-import java.sql.SQLOutput;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 
@@ -19,7 +18,7 @@ public class _Consumer {
 //! Functional Java Function
         greetCustomerConsumer.accept(maria);
         greetCustomerConsumerV2.accept(maria, false);
-        greetCustomerV2(maria,true);
+        greetCustomerV2(maria, true);
 
     }
 
@@ -28,7 +27,7 @@ public class _Consumer {
         System.out.println("Hello " + customer.customerName + " thanks for registering phone number " + customer.customerPhoneNumber);
     }
 
-    static void greetCustomerV2(Customer customer, boolean showPhoneNumber){
+    static void greetCustomerV2(Customer customer, boolean showPhoneNumber) {
         System.out.println("Hello " + customer.customerName + ", thanks for registering phone number " + (showPhoneNumber ? customer.customerPhoneNumber : "**********"));
     }
 
