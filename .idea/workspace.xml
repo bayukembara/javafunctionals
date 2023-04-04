@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b86780-2a4d-45e5-a9b2-3ed54f8d2a75" name="Changes" comment="Belajar">
-      <change afterPath="$PROJECT_DIR$/src/main/java/combinator/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/combinator/CustomerValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/combinator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/callback/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinator/CustomerRegistrationValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/functionalinterface/_Consumer$Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/functionalinterface/_Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/functionalinterface/_Function.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/functionalinterface/_Predicate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/functionalinterface/_Supplier.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imperative/Main$Gender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imperative/Main$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/imperative/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combinator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combinator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/optionals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/optionals/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,10 +45,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="combinator.Main" />
       <module name="javafunctionals" />
@@ -81,8 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="callback.main" />
+      <module name="javafunctionals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="callback.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application._Stream" />
       </list>
@@ -98,8 +107,23 @@
       <updated>1678759988408</updated>
       <workItem from="1678759993020" duration="236000" />
       <workItem from="1679625476538" duration="2403000" />
-      <workItem from="1679629300558" duration="4097000" />
+      <workItem from="1679629300558" duration="5321000" />
+      <workItem from="1679656398936" duration="7000" />
+      <workItem from="1679884325020" duration="2188000" />
+      <workItem from="1679984730285" duration="479000" />
+      <workItem from="1680490426622" duration="1165000" />
+      <workItem from="1680591648637" duration="2100000" />
+      <workItem from="1680593820999" duration="979000" />
+      <workItem from="1680594881607" duration="2841000" />
     </task>
+    <task id="LOCAL-00001" summary="Belajar">
+      <created>1679648616516</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679648616516</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +139,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Belajar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Belajar" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
