@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07b86780-2a4d-45e5-a9b2-3ed54f8d2a75" name="Changes" comment="Belajar">
-      <change afterPath="$PROJECT_DIR$/src/main/java/callback/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/combinator/CustomerRegistrationValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorpattern/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorpattern/CustomerRegistrationValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorpattern/CustomerValidatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/combinatorpattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/database/importDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambdas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/combinator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combinator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/optionals/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/optionals/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/combinator/CustomerValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/combinator/CustomerValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,12 +32,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MzAJoh4kw9q8TrzR6nAC7oRoUb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,6 +54,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -47,15 +63,21 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb",
+      "postgresql"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.importDB">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="combinator.Main" />
-      <module name="javafunctionals" />
+      <option name="MAIN_CLASS_NAME" value="lambdas.Main" />
+      <module name="javafunctional" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="combinator.*" />
+          <option name="PATTERN" value="lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams._Stream" />
-      <module name="javafunctionals" />
+    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalinterface._Consumer" />
+      <module name="javafunctional" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="functionalinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +98,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="callback.main" />
-      <module name="javafunctionals" />
+    <configuration name="_Supplier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functionalinterface._Supplier" />
+      <module name="javafunctional" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="callback.*" />
+          <option name="PATTERN" value="functionalinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="database.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="database.Main" />
+      <module name="javafunctional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="importDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="database.importDB" />
+      <module name="javafunctional" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="database.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,9 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.importDB" />
+        <item itemvalue="Application.database.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application._Stream" />
+        <item itemvalue="Application._Consumer" />
+        <item itemvalue="Application._Supplier" />
       </list>
     </recent_temporary>
   </component>
@@ -115,6 +165,7 @@
       <workItem from="1680591648637" duration="2100000" />
       <workItem from="1680593820999" duration="979000" />
       <workItem from="1680594881607" duration="2841000" />
+      <workItem from="1681051199790" duration="4903000" />
     </task>
     <task id="LOCAL-00001" summary="Belajar">
       <created>1679648616516</created>
@@ -134,7 +185,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
