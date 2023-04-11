@@ -5,21 +5,21 @@ import java.time.Period;
 
 public class CustomerValidatorService {
 
-    private boolean isEmailValid(String email){
-        return email.contains("@");
-    }
+	private boolean isEmailValid(String email) {
+		return email.contains("@");
+	}
 
-    private boolean isPhoneValid(String phone){
-        return phone.startsWith("+62");
-    }
+	private boolean isPhoneValid(String phone) {
+		return phone.startsWith("+62");
+	}
 
-    private boolean isAdult(LocalDate dob){
-        return Period.between(dob,LocalDate.now()).getYears()>16;
-    }
+	private boolean isAdult(LocalDate dob) {
+		return Period.between(dob, LocalDate.now()).getYears() > 16;
+	}
 
-    public boolean isAutheticated(Customer customer){
-        return isEmailValid(customer.getEmail()) && isPhoneValid(customer.getPhoneNumber())
-                && isAdult(customer.getDob());
-    }
+	public boolean isAutheticated(Customer customer) {
+		return isEmailValid(customer.getEmail()) && isPhoneValid(customer.getPhoneNumber())
+				&& isAdult(customer.getDob());
+	}
 
 }
